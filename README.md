@@ -2,13 +2,13 @@
 
 ---
 
-**scpo** is a theme for beamer. Feel free to use it for your seminar talks. 
+**scpo** is a theme for beamer. Feel free to use it for your seminar talks. [Here](https://github.com/jmboehm/scpo-beamer/demo/demp.pdf) are some demonstration slides.
 
 Also, the theme is far from perfect, so please feel free to submit pull requests.
 
 ## Installation
 
-Installing **scpo** from source, like any Beamer theme, involves four easy
+Installing **scpo** from source, like any Beamer theme, involves five easy
 steps:
 
 1. **Download the source** with a `git clone` of the [scpo repository](https://github.com/jmboehm/scpo-beamer)
