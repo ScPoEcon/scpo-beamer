@@ -1,6 +1,6 @@
 # ScPo beamer theme
 
----
+by Johannes Boehm <johannes.boehm@sciencespo.fr>
 
 **scpo** is a theme for beamer. Feel free to use it for your seminar talks. [Here](https://github.com/jmboehm/scpo-beamer/blob/master/demo/demo.pdf) are some demonstration slides.
 
