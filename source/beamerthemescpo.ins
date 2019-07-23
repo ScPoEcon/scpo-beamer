@@ -1,0 +1,82 @@
+%% ---------------------------------------------------------------------------
+% Sciences Po Beamer theme
+%
+% Copyright 2019 Johannes Boehm, based on the metropolis beamer theme which
+% has the following copyright information:
+%
+% mtheme: Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
+% contributors can be found at
+%
+%     https://github.com/matze/mtheme/graphs/contributors
+%
+% and the original template was based on the HSRM theme by Benjamin Weiss.
+%%
+%% This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+%% International License (https://creativecommons.org/licenses/by-sa/4.0/).
+%% ---------------------------------------------------------------------------
+
+\input docstrip.tex %
+\keepsilent
+\askforoverwritefalse
+\usedir{tex/latex/scpotheme}
+
+\preamble
+---------------------------------------------------------------------------
+Copyright 2019 Johannes Boehm, based on the metropolis beamer theme which
+has the following copyright information:
+
+mtheme: Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
+contributors can be found at
+
+    https://github.com/matze/mtheme/graphs/contributors
+
+and the original template was based on the HSRM theme by Benjamin Weiss.
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+International License (https://creativecommons.org/licenses/by-sa/4.0/).
+---------------------------------------------------------------------------
+\endpreamble
+
+\generate{\file{beamerthemescpo.sty}{%
+          \from{beamerthemescpo.dtx}{package}}
+          }
+\generate{\file{beamerinnerthemescpo.sty}{%
+          \from{beamerinnerthemescpo.dtx}{package}}
+          }
+\generate{\file{beamerouterthemescpo.sty}{%
+          \from{beamerouterthemescpo.dtx}{package}}
+          }
+\generate{\file{beamerfontthemescpo.sty}{%
+          \from{beamerfontthemescpo.dtx}{package}}
+          }
+\generate{\file{beamercolorthemescpo.sty}{%
+          \from{beamercolorthemescpo.dtx}{package}}
+          }
+\generate{\file{beamercolorthemescpo-highcontrast.sty}{%
+          \from{beamercolorthemescpo-highcontrast.dtx}{package}}
+          }
+\generate{\file{pgfplotsthemetol.sty}{%
+          \from{pgfplotsthemetol.dtx}{package}}
+          }
+
+\obeyspaces
+\Msg{**************************************************************}
+\Msg{*                                                            *}
+\Msg{* To finish the installation you have to move the following  *}
+\Msg{* files into a directory searched by TeX:                    *}
+\Msg{*                                                            *}
+\Msg{*     beamerthemescpo.sty                              *}
+\Msg{*     beamerinnerthemescpo.sty                         *}
+\Msg{*     beamerouterthemescpo.sty                         *}
+\Msg{*     beamerfontthemescpo.sty                          *}
+\Msg{*     beamercolorthemescpo.sty                         *}
+\Msg{*     pgfplotsthemetol.sty                                   *}
+\Msg{*                                                            *}
+\Msg{* To produce the documentation run the file scpotheme.dtx       *}
+\Msg{* through LaTeX.                                             *}
+\Msg{*                                                            *}
+\Msg{* Happy TeXing!                                              *}
+\Msg{*                                                            *}
+\Msg{**************************************************************}
+
+\endbatchfile
