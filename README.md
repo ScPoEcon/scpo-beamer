@@ -2,7 +2,9 @@
 
 ---
 
-**scpo** is a theme for beamer. Feel free to use it for your seminar talks.
+**scpo** is a theme for beamer. Feel free to use it for your seminar talks. 
+
+Also, the theme is far from perfect, so please feel free to submit pull requests.
 
 ## Installation
 
