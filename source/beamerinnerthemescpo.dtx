@@ -424,9 +424,17 @@
 %
 %    \begin{macrocode}
   \ifbeamercolorempty[bg]{block title#1}{%
-    \begin{beamercolorbox}[rightskip=0pt plus 4em]{block title#1}}{%
+    %\begin{beamercolorbox}[rightskip=0pt plus 4em]{block title#1}}{%
+    \begin{beamercolorbox}[
+      sep=\dimexpr\scpo@blocksep-\scpo@blockadjust\relax,
+      leftskip=\dimexpr\scpo@blockadjust-\scpo@blocksep\relax,
+      rightskip=0pt plus 4em]{block title#1}}{%
   \ifbeamercolorempty[bg]{block title}{%
-    \begin{beamercolorbox}[rightskip=0pt plus 4em]{block title#1}%
+    %\begin{beamercolorbox}[rightskip=0pt plus 4em]{block title#1}%
+    \begin{beamercolorbox}[
+      sep=\dimexpr\scpo@blocksep-\scpo@blockadjust\relax,
+      leftskip=\dimexpr\scpo@blockadjust-\scpo@blocksep\relax,
+      rightskip=0pt plus 4em]{block title#1}%
   }%
 %   \end{macrocode}
 %
